@@ -14,7 +14,7 @@ if [ -z "$(git status --porcelain)" ]; then
   echo "merging ${CURRENT} into ${TARGET}"
   git checkout "$TARGET"
   git pull
-  git merge "$CURRENT"
+  git merge --ff "$CURRENT"
   git push
   git checkout "$CURRENT"
 else
