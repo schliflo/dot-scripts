@@ -7,6 +7,9 @@ alias checkout="git checkout"
 alias pull="git pull"
 alias status="git status"
 
+# bat instead of cat (https://github.com/sharkdp/bat)
+alias cat="bat"
+
 # mac upgrade
 alias upgrade="~/.scripts/mac-upgrade.sh"
 
@@ -21,3 +24,6 @@ valet() {
         command valet "$@"
     fi
 }
+
+# include private stuff
+bash ~/.scripts/private/index.sh
