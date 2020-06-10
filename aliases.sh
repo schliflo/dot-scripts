@@ -15,6 +15,7 @@ alias upgrade="~/.scripts/mac-upgrade.sh"
 
 # general aliases
 alias zefix="fuck"
+alias finder="open"
 
 # map `valet up` to `valet start`
 valet() {
